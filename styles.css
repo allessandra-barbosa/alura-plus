@@ -16,3 +16,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principa);
 }
+
+.principal {
+    background-image: url(imagens/Background.png);
+}
