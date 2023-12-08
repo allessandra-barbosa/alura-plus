@@ -8,6 +8,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --font-principal: 'Inter', sans-serif;
+    --botao-azul-efeito: #3c92fa;
 }
 
 * {
@@ -58,6 +59,11 @@ body {
     margin-bottom: 1em;
     display: block;
     text-decoration: none;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
 
 .botao-secundario {
@@ -140,6 +146,10 @@ body {
     text-decoration: none;
     color: var(--branco-principa);
     margin-left: 1em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
 }
 
 .rodape__texto {
