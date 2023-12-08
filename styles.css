@@ -98,3 +98,23 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+
+.dispositivos {
+    text-align: center;
+    color: var(--branco-principa);
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+}
